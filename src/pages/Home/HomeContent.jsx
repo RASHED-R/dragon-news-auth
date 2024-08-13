@@ -5,7 +5,7 @@ const HomeContent = () => {
     return (
         <div className=" grid grid-cols-1 md:grid-cols-4 gap-6">
             <HomeLeft></HomeLeft>
-            <div className=" col-span-2 border">middle</div>
+            <div className=" col-span-2 ">middle</div>
             <HomeRight></HomeRight>
         </div>
     );
